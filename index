@@ -1,0 +1,124 @@
+1. HTML stands for Hyper text markup language. It is the strcuture of buliding blocks of content.
+
+2. Attributes:
+   It is specify various additional properties to the existing HTML elements.
+   eg of Attributes: <p align="center">some content</p>---> align is the attribute name, center is the attribute value.
+   Tags:
+   Starting and ending tags are also called the tags.
+   eg of tags:<p></p>
+   
+3. 3 Types of list of HTML:
+     1. order list 2. unorder list 3. description list
+	
+4. various formatting tags in html: <strong>, <b>, <mark>, <small>, <del>, <sup>, <sub>, <em>, <i>
+
+5. <strong> tag---> important text, <b> tag---->bold text.
+   <em> tag ---->emphazised text, <i> tag---> italic text
+   
+6. Three ways to specify the css style in HTML elements:
+     1. Inline CSS 2. Internal CSS 3. External CSS.
+	
+7. Link tag: 
+    1. This tag is used inside the head section.
+	2. It is an empty element, content cannot be displayed in the output page, cannot directly visible to the user and it is not clickable.
+   <a> tag:
+    1. This tag is used inside the body section.
+	2. It is not an empty element, content can be displayed in the output page, can directly visible to the user and it is click.
+
+8. <form> tag elements are---><form>, <textarea>, <input> and <button>
+   <form>
+   <input type="name" placeholder="Enter your name">
+   <input type="email" placeholder="email-id">
+   <input type="pswrd" placeholder="password">
+   <textarea placeholder="Enter your message">Submit this form</textarea>
+   <button>submit</button>
+   </form>
+   
+9. audio in a webpage:
+   <audio autoplay control>
+     <src="" type="">
+   </audio>
+   
+   supporting audio formats are mp3, ogg
+   
+   video in a webpage:
+   <video width="" height="" autoplay control>
+    <src="" type="">
+   </video>
+   
+   supporting video formats are mp4, ogg.
+   
+10. Inline elements in HTML: <a>, <input>, <ol>, <ul>
+    Block elements in HTML: <header>, <footer>, <section>, <h1>
+
+11. Semantic elements: <header>, <nav>, <footer>, <aside>, <figure>, <section>, <article>, <main>
+
+12. mp3, wav and ogg-> this formatting audio files are supported.
+
+13. <iframe> tag is used  for creating nested webpage.
+    iframe stands for inline frame.
+	It is used to embed another document with the current HTML document.
+	
+14. It is different.
+    <p></p>--->is the tag
+	<p>some contents are inside</p>---->is the element.
+	
+15. <!DOCTYPE html>
+	<html>
+	<head>
+		<style>
+			table, th, tr, td
+			{
+			border: 4px solid #000000;
+			padding: 6px;
+			}
+		th{
+			color: white;
+			background-color: red;
+		   }
+		</style>
+	</head>
+	<body>
+		<table>
+			<caption></caption>
+			<tr>
+				<th>Name</th>
+				<th>Age</th>
+				<th>Occupation</th>
+				<th>Location</th>
+			</tr>
+			<tr>
+				<td>Luke Peters</td>
+				<td>25</td>
+				<td>Freelance web developer</td>
+				<td>Brookline, MA</td>
+			</tr>
+			<tr>
+				<td>Joseph Smith</td>
+				<td>27</td>
+				<td>Project Manager</td>
+				<td>Somerville, MA</td>
+			</tr>
+			<tr>
+				<td>Maxwell Johnson</td>
+				<td>26</td>
+				<td>UX Architect &#x0026;</td>
+				<td>Arlington, MA</td>
+			</tr>
+			<tr>
+				<td>Harry Harrison</td>
+				<td>25</td>
+				<td>Front-End-Developer</td>
+				<td>Boston, MA</td>
+			</tr>
+		</table>
+	</body>
+	</html>
+
+	
+
+	
+	
+   
+   
+ 
